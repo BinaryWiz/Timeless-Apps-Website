@@ -16,7 +16,7 @@ html, body {
 
 /* First Section */
 #first-section {
-	background: url(img/pencils.jpg);
+	background: url(img/particles-circling.jpg);
 	background-size: cover;
 	background-position: center;
 	color: black;
@@ -26,6 +26,7 @@ html, body {
 
 #landing-page {
 	width: 100%;
+	color: white;
 	display: flex;
 	height: calc(100% - 60px);
 	flex-direction: column;
@@ -86,7 +87,8 @@ html, body {
 }
 
 #brand-name {
-	font-weight: 700;
+	font-family: "Open Sans Condensed";
+	letter-spacing: 10px;
 	font-size: 6em;
 }
 
