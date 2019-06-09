@@ -10,12 +10,12 @@ html, body {
 	background-position: center;
 }
 
-#navbar {
-	background: rgba(0, 0, 0, 1);
+hr {
+	border: 1px solid white;
 }
 
-#first-section-banner-container {
-
+#navbar {
+	background: rgba(0, 0, 0, 1);
 }
 
 .full-picture-sections:not(#navbar) {
@@ -52,6 +52,14 @@ html, body {
 	text-align: center;
 }
 
+#brand-name {
+	font-size: 5vw;
+}
+
+#slogan {
+	font-size: 2vw;
+}
+
 #logo_description {
 	display: flex;
 	flex-direction: row-reverse;
@@ -61,14 +69,14 @@ html, body {
 }
 
 #logo {
-	max-height: 128px;
-	max-width: 128px;
+	max-height: 10vw;
+	max-width: 10vw;
 	margin-left: 5%;
 }
 
 #logo2 {
-	max-height: 128px;
-	max-width: 128px;
+	max-height: 10vw;
+	max-width: 10vw;
 	margin-right: 5%;
 }
 
