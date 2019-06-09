@@ -95,7 +95,9 @@ hr {
 #projects-banner-inner {
 }
 
-#projects {
+#main-projects {
+	display: flex;
+	justify-content: space-between;
 	margin-top: 1.4vw;
 }
 
@@ -110,11 +112,11 @@ hr {
 	color: white;
 }
 
-#price-assist-title {
+.title {
 	text-align: center;
 }
 
-#price-assist-desc {
+.products-desc {
 	text-align: center;
 	padding: 2vw;
 }
