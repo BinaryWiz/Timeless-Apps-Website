@@ -80,24 +80,28 @@ hr {
 	margin-right: 5%;
 }
 
+#credit {
+	font-size: 1.5vw;
+}
+
+#open-source {
+	font-size: 1.2vw;
+}
 
 /* Projects Banner */
 
 #projects-banner {
-	height: 10vw;
+	height: 12vw;
 	background: rgba(4, 6, 16, 0.95);
 	color: white;
 	text-align: center;
 	padding-top: 1%;
 	font-family: "Nanum Gothic";
+	font-size: 1.6vw;
 }
 
-#projects-banner-inner {
-}
 
 #main-projects {
-	display: flex;
-	justify-content: space-between;
 	margin-top: 1.4vw;
 }
 
@@ -127,4 +131,62 @@ hr {
 	justify-content: space-between;
 	max-width: 50%;
 	max-height: 15vw;
+}
+
+
+/* Responsiveness */
+
+
+@media only screen and (max-width: 1100px) {
+	#brand-name {
+		font-size: 7vw;
+	}
+
+	#slogan {
+		font-size: 3vw;
+	}
+
+	#projects-banner {
+		font-size: 2.5vw;
+		height: 20vw;
+	}
+
+	#credit {
+		font-size: 2.2vw;
+	}
+
+	#open-source {
+		font-size: 1.9vw;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#brand-name {
+		font-size: 48px;
+	}
+
+	#slogan {
+		font-size: 30px;
+	}
+
+	#projects-banner {
+		font-size: 18px;
+		height: 20%;
+	}
+
+	#credit {
+		font-size: 20px;
+	}
+
+	#open-source {
+		font-size: 18px;
+	}
+
+	.title {
+		font-size: 30px;
+	}	
+
+	.products-desc {
+		font-size: 24px;
+	}
 }
