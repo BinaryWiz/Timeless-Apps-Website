@@ -149,6 +149,7 @@ hr {
 	#projects-banner {
 		font-size: 2.5vw;
 		height: 20vw;
+		min-height: 200px;
 	}
 
 	#credit {
