@@ -114,6 +114,7 @@ hr {
 	font-family: "Nanum Gothic";
 	background: rgba(4, 6, 16, 0.7);
 	color: white;
+	padding-bottom: 1.4vw;
 }
 
 .title {
@@ -187,4 +188,36 @@ hr {
 	.products-desc {
 		font-size: 24px;
 	}
+}
+
+footer {
+	display: flex;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.95);
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	margin-top: 2%;
+}
+
+.icons {
+	color: white;
+	font-size: 30px;
+
+}
+
+footer > a {
+	margin-right: 3%;
+	margin-left: 3%;
+	padding: 7px;
+}
+
+footer > p {
+	height: 100%
+	align-self: center;
+	color: white;
+	font-size: 25px;
+	margin-top: auto;
+	margin-bottom: auto;
 }
