@@ -1,0 +1,99 @@
+html, body {
+	height: 100%;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Lato, serif;
+	overflow-x: hidden;
+	background: url(img/particles-circling.jpg) no-repeat center center fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+hr {
+	border: 1px solid white;
+}
+
+#navbar {
+	background: rgba(227, 25, 25, 0.85);
+}
+
+.full-picture-sections:not(#navbar) {
+	width: 100vw;
+	height: 100vh;
+	max-height: 100vh;
+	margin: 0;
+	padding: 0;
+
+}
+
+#full-section {
+	height: 100%;
+	width: 100%;
+	min-height: 400px;
+}
+
+#landing-page {
+	width: 100%;
+	height: calc(100% - 60px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#easy-college {
+	padding-right: 2%;
+}
+
+#easy-college-img-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#easy-college-img {
+	max-height: 100%;
+	max-width: 20vw;
+	width: auto;
+	height: auto;
+	border-radius: 10px;
+	border: 5px solid black;
+}
+
+#easy-college-desc {
+	padding-left: 2%;
+}
+
+footer {
+	display: flex;
+	width: 100%;
+	background: rgba(227, 25, 25, 0.85);
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	margin-top: 2%;
+}
+
+.icons {
+	color: white;
+	font-size: 30px;
+
+}
+
+footer > a {
+	margin-right: 3%;
+	margin-left: 3%;
+	padding: 7px;
+}
+
+footer > p {
+	height: 100%
+	align-self: center;
+	color: white;
+	font-size: 25px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
