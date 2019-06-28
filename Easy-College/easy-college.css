@@ -51,6 +51,7 @@ hr {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	animation-duration: 1s;
 }
 
 #easy-college-img {
@@ -64,6 +65,8 @@ hr {
 
 #easy-college-desc {
 	padding-left: 2%;
+	animation-delay: 1s;
+	animation-duration: 1s;
 }
 
 footer {
