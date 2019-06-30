@@ -21,7 +21,6 @@ hr {
 .full-picture-sections:not(#navbar) {
 	width: 100vw;
 	height: 100vh;
-	max-height: 100vh;
 	margin: 0;
 	padding: 0;
 
@@ -63,10 +62,21 @@ hr {
 	border: 5px solid black;
 }
 
-#easy-college-desc {
+#easy-college-desc-box {
+	display: flex;
+	flex-direction: column;
 	padding-left: 2%;
 	animation-delay: 1s;
 	animation-duration: 1s;
+}
+
+#easy-college-desc {
+	line-height: 39px;
+}
+
+#download-button {
+	margin-top: auto;
+	width: 100%;
 }
 
 footer {
@@ -100,3 +110,54 @@ footer > p {
 	margin-top: auto;
 	margin-bottom: auto;
 }
+
+@media only screen and (max-width: 1200px) {
+	#easy-college-img {
+		max-width: 25vw;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.full-picture-sections:not(#navbar) {
+		height: 140vh;
+	}
+
+	#easy-college {
+		margin-bottom: 5%;
+	}
+
+}
+
+@media only screen and (max-width: 902px) {
+	#easy-college-img {
+		max-width: 33vw;
+	}
+	.full-picture-sections:not(#navbar) {
+		height: 175vh;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#easy-college-img {
+		max-width: 37vw;
+	}
+}
+
+@media only screen and (max-width: 670px) {
+	#easy-college-img {
+		max-width: 39vw;
+	}
+}
+
+@media only screen and (max-width: 590px) {
+	#easy-college-img {
+		max-width: 41vw;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	#easy-college-img {
+		max-width: 45vw;
+	}
+}
+
