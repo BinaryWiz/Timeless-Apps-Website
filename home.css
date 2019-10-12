@@ -134,6 +134,11 @@ hr {
 	align-items: center;
 }
 
+.disabled {
+	pointer-events: none;
+	cursor: default;
+}
+
 #price-assist {
 
 }
@@ -179,7 +184,7 @@ hr {
 }
 
 #install-info > .rounded-button {
-	background: #17181a;
+	background: #9ba2af;
 	color: white;
 }
 
@@ -254,9 +259,6 @@ footer {
 	justify-content: center;
 	padding: 10px;
 	margin-top: 2%;
-	position:fixed;
-	left:0px;
-	bottom:0px;
 }
 
 .icons {
