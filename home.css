@@ -57,7 +57,7 @@ hr {
 }
 
 #brand-name {
-	font-size: 5vw;
+	font-size: 5.2vw;
 	letter-spacing: 0.3vw;
 	font-family: 'Nanum Gothic';
 }
@@ -89,7 +89,7 @@ hr {
 	margin-right: 5%;
 }
 
-#about-button {
+.rounded-button {
 	font-family: 'Nanum Gothic';
 	padding-right: 6%;
 	padding-left: 6%;
@@ -103,9 +103,11 @@ hr {
 	transition: 0.3s
 }
 
-#about-button:hover {
+.rounded-button:hover {
 	background-color: white;
 	color: black;
+	text-decoration: none;
+
 }
 
 #scroll-arrow-container {
@@ -125,6 +127,13 @@ hr {
 
 /* Price Assist */
 
+.horizontal-centered {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 #price-assist {
 
 }
@@ -137,11 +146,48 @@ hr {
 	padding-left: 10%;
 }
 
-#price-assist-screenshot {
-	display: flex;
-	flex-direction: column;
-	justify-items: center;
-	align-items: center;
+#price-assist-title {
+	font-size: 3.9vw;
+	letter-spacing: 0.5vw;
+	font-family: "Nanum Gothic";
+}
+
+#price-assist-desc {
+	font-size: 1.5vw;
+	letter-spacing: 0.3vw;
+	font-family: "Nanum Gothic";
+}
+
+#price-assist-screenshot-column {
+	margin-top: 5%;
+}
+
+#supported-retailers > p {
+	font-size: 2vw;
+	font-family: "Nanum Gothic";
+}
+
+#supported-retailers-list {
+	list-style-type: none;
+}
+
+#supported-retailers-list > li {
+	font-size: 1.5vw;
+	letter-spacing: 0.3vw;
+	border-left: 5px solid #37fad6;
+	margin-top: 15px;
+}
+
+#install-info > .rounded-button {
+	background: #17181a;
+	color: white;
+}
+
+#install-info > .rounded-button:hover {
+	background-color: white;
+	color: black;
+	border: 5px solid #17181a;
+	text-decoration: none;
 }
 
 /* Responsiveness */
