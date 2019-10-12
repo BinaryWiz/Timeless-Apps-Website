@@ -5,9 +5,6 @@ html, body {
 	padding: 0;
 	font-family: Lato, serif;
 	overflow-x: hidden;
-	background: url(img/particles-circling.jpg) no-repeat center center fixed;
-	background-size: cover;
-	background-position: center;
 }
 
 hr {
@@ -16,6 +13,9 @@ hr {
 
 #navbar {
 	background: rgba(0, 0, 0, 1);
+	width: 100%;
+	position: fixed;
+	top: 0;
 }
 
 .full-picture-sections:not(#navbar) {
@@ -36,9 +36,12 @@ hr {
 
 #landing-page {
 	width: 100%;
+	height: 39%;
+	margin-top: 56px;
 	color: white;
+	min-height: 250px;
+	background-color: #17181a;
 	display: flex;
-	height: calc(100% - 60px);
 	flex-direction: column;
 	justify-content: center;
 	justify-items: center;
@@ -55,10 +58,15 @@ hr {
 
 #brand-name {
 	font-size: 5vw;
+	letter-spacing: 0.3vw;
+	font-family: 'Nanum Gothic';
 }
 
 #slogan {
-	font-size: 2vw;
+	font-size: 1.5vw;
+	font-family: 'Nanum Gothic';
+	letter-spacing: 0.2vw;
+	color: #37fad6;
 }
 
 #logo_description {
@@ -70,15 +78,33 @@ hr {
 }
 
 #logo {
-	max-height: 10vw;
-	max-width: 10vw;
+	max-height: 7vw;
+	max-width: 7vw;
 	margin-left: 5%;
 }
 
 #logo2 {
-	max-height: 10vw;
-	max-width: 10vw;
+	max-height: 7vw;
+	max-width: 7vw;
 	margin-right: 5%;
+}
+
+#about-button {
+	font-familly: 'Nanum Gothic';
+	padding-right: 6%;
+	padding-left: 6%;
+	padding-top: 0.8%;
+	padding-bottom: 0.8%;
+	border-radius: 100px;
+	border: 1px solid transparent;
+	background-color: white;
+	color: black;
+	font-size: 1.5vw;
+	text-decoration: none;
+}
+
+#scroll-arrow-container {
+	padding-top: 2%;
 }
 
 #credit {
@@ -199,6 +225,9 @@ footer {
 	justify-content: center;
 	padding: 10px;
 	margin-top: 2%;
+	position:fixed;
+	left:0px;
+	bottom:0px;
 }
 
 .icons {
@@ -214,7 +243,7 @@ footer > a {
 }
 
 footer > p {
-	height: 100%
+	height: 100%;
 	align-self: center;
 	color: white;
 	font-size: 25px;
