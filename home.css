@@ -32,7 +32,7 @@ hr {
 }
 
 #navbar {
-	background: rgba(0, 0, 0, 1);
+	background: #17181a;
 	width: 100%;
 	position: fixed;
 	top: 0;
@@ -132,24 +132,31 @@ hr {
 
 #scroll-arrow-container {
 	padding-top: 5%;
-	-webkit-animation: mover 1s infinite  alternate;
-    animation: mover 1s infinite  alternate;
+	-webkit-animation: vertical-mover 1s infinite  alternate;
+    animation: vertical-mover 1s infinite  alternate;
 }
 
-@-webkit-keyframes mover {
+@-webkit-keyframes vertical-mover {
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
 }
-@keyframes mover {
+@keyframes vertical-mover {
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
 }
 
 /* Price Assist */
 
-.horizontal-centered {
+.horizontal-centered-column {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.horizontal-centered-row {
+	display: flex;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 }
@@ -163,6 +170,11 @@ hr {
 
 }
 
+#price-assist-column {
+	margin-top: 5%;
+	display: flex;
+	align-items: flex-start;
+}
 
 #price-assist-information {
 	text-align: center;
@@ -183,8 +195,43 @@ hr {
 	font-family: "Nanum Gothic";
 }
 
-#price-assist-screenshot-column {
-	margin-top: 5%;
+
+#price-assist-flow > ul > li {
+	font-family: "Nanum Gothic";
+	font-size: 1.2vw;
+	border-radius: 100px;
+	border: 5px solid #37fad6;
+	-webkit-box-shadow: 4px 4px 17px -9px rgb(173, 255, 240);
+	-moz-box-shadow: 4px 4px 17px -9px rgb(173, 255, 240);
+	box-shadow: 4px 4px 17px -9px rgb(173, 255, 240);
+	list-style-type: none;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	padding: 2%;
+}
+
+
+#price-assist-flow > p {
+	font-size: 2vw;
+	font-family: "Nanum Gothic";
+}
+
+#price-assist-flow > ul {
+	margin-right: 5.5%;
+}
+
+.chevron-right {
+	-webkit-animation: horizontal-mover 1s infinite  alternate;
+	animation: horizontal-mover 1s infinite  alternate;
+}
+
+@-webkit-keyframes horizontal-mover {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-10px); }
+}
+@keyframes horizontal-mover {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-10px); }
 }
 
 #supported-retailers > p {
@@ -199,7 +246,6 @@ hr {
 #supported-retailers-list > li {
 	font-size: 1.5vw;
 	letter-spacing: 0.3vw;
-	border-left: 5px solid #37fad6;
 	margin-top: 15px;
 }
 
@@ -273,7 +319,7 @@ hr {
 footer {
 	display: flex;
 	width: 100%;
-	background: rgba(0, 0, 0, 0.95);
+	background: #17181a;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
@@ -301,3 +347,5 @@ footer > p {
 	margin-top: auto;
 	margin-bottom: auto;
 }
+
+
