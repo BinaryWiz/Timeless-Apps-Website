@@ -22,7 +22,7 @@ html, body {
 #new-scrollbar::-webkit-scrollbar-thumb
 {
 	background-color: #17181a;
-	border: 2px solid #80d6c6;
+	border: 2px solid #17181a;
 }
 
 
@@ -210,6 +210,12 @@ hr {
 	padding: 2%;
 }
 
+#price-assist-flow > ul > li:hover {
+	background-color: #63ecd3;
+	border-color: #63ecd3;
+	color: black;
+}
+
 
 #price-assist-flow > p {
 	font-size: 2vw;
@@ -218,11 +224,17 @@ hr {
 
 #price-assist-flow > ul {
 	margin-right: 5.5%;
+	width: 80%
+}
+
+#price-assist-flow > ul > li > .chevron-right {
+	float: left;
 }
 
 .chevron-right {
 	-webkit-animation: horizontal-mover 1s infinite  alternate;
 	animation: horizontal-mover 1s infinite  alternate;
+	float: left;
 }
 
 @-webkit-keyframes horizontal-mover {
