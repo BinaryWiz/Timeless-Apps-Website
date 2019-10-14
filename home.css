@@ -128,8 +128,6 @@ hr {
     100% { transform: translateY(-10px); }
 }
 
-/* Price Assist */
-
 .horizontal-centered-column {
 	display: flex;
 	flex-direction: column;
@@ -148,6 +146,8 @@ hr {
 	pointer-events: none;
 	cursor: default;
 }
+
+/* Price Assist */
 
 #price-assist {
 
@@ -256,6 +256,90 @@ hr {
 	text-decoration: none;
 }
 
+/* Open Source Stuff */
+
+#open-source {
+	width: 100%;
+	height: 33%;
+	margin-top: 2%;
+	margin-right: 0;
+	margin-left: 0;
+	font-family: "Nanum Gothic";
+}
+
+.open-source-sections {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.open-source-title {
+	font-size: 2vw;
+	text-align: center;
+}
+
+.open-source-information {
+	font-size: 1.2vw;
+	text-align: center;
+}
+
+#upm {
+	background-color: #17181a;
+	color: white;
+
+}
+
+#leveldb {
+	color: black;
+}
+
+#leveldb > a {
+	background-color: #17181a;
+	color: white;
+}
+
+#leveldb > a:hover {
+	background-color: white;
+	color: #17181a;
+	border-color: #17181a;
+}
+
+/* Footer */
+
+footer {
+	display: flex;
+	width: 100%;
+	background: #17181a;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+.icons {
+	color: white;
+	font-size: 30px;
+
+}
+
+footer > a {
+	margin-right: 3%;
+	margin-left: 3%;
+	padding: 7px;
+}
+
+footer > p {
+	height: 100%;
+	align-self: center;
+	color: white;
+	font-size: 25px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+
 /* Responsiveness */
 
 
@@ -325,7 +409,22 @@ hr {
 		padding-bottom: 1%;
 		font-size: 3vw;
 	}
+
+	.open-source-title {
+		font-size: 4vw;
+	}
+
+	.open-source-information {
+		font-size: 2vw;
+	}
 }
+
+@media only screen and (max-width: 992px) {
+	#upm > a {
+		margin-bottom: 1%;
+	}
+}
+
 
 @media only screen and (max-width: 768px) {
 	#brand-name {
@@ -393,38 +492,16 @@ hr {
 		padding-bottom: 2.2%;
 		font-size: 3.8vw;
 	}
+
+	.open-source-title {
+		font-size: 4.5vw;
+	}
+
+	.open-source-information {
+		font-size: 2.8vw;
+	}
+
+	.open-source-sections > a {
+		font-size: 3vw;
+	}
 }
-
-footer {
-	display: flex;
-	width: 100%;
-	background: #17181a;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	padding: 10px;
-	margin-top: 2%;
-}
-
-.icons {
-	color: white;
-	font-size: 30px;
-
-}
-
-footer > a {
-	margin-right: 3%;
-	margin-left: 3%;
-	padding: 7px;
-}
-
-footer > p {
-	height: 100%;
-	align-self: center;
-	color: white;
-	font-size: 25px;
-	margin-top: auto;
-	margin-bottom: auto;
-}
-
-
