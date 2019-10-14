@@ -34,30 +34,13 @@ hr {
 #navbar {
 	background: #17181a;
 	width: 100%;
-	position: fixed;
-	top: 0;
-}
-
-.full-picture-sections:not(#navbar) {
-	width: 100vw;
-	height: 100vh;
-	max-height: 100vh;
-	margin: 0;
-	padding: 0;
 
 }
 
-/* First Section */
-#first-section {
-	height: 100%;
-	width: 100%;
-	min-height: 400px;
-}
 
 #landing-page {
 	width: 100%;
 	height: 47%;
-	margin-top: 56px;
 	color: white;
 	min-height: 250px;
 	background-color: #17181a;
@@ -278,23 +261,69 @@ hr {
 
 @media only screen and (max-width: 1100px) {
 	#brand-name {
-		font-size: 7vw;
+		font-size: 64px;
 	}
 
 	#slogan {
+		font-size: 40px;
+	}
+
+	#about-button {
+		padding-right: 10%;
+		padding-left: 10%;
+		padding-top: 2.1%;
+		padding-bottom: 2.1%;
 		font-size: 3vw;
 	}
 
-	#projects-banner {
+	#scroll-arrow-container > img {
+		height: 7%;
+		width: 7%;
+		padding-top: 10px
+	}
+
+	#logo {
+		display: none;
+	} 
+
+	#logo2 {
+		display: none;
+	}
+
+	#price-assist-title {
+		font-size: 6vw;
+	}
+
+	#price-assist-desc {
 		font-size: 2.5vw;
 	}
 
-	#credit {
-		font-size: 2.2vw;
+	#price-assist-flow > p {
+		font-size: 2.5vw;
+	}	
+
+	#price-assist-flow > ul > li {
+		font-size: 2vw;
 	}
 
-	#open-source {
-		font-size: 1.9vw;
+	#supported-retailers > p {
+		font-size: 2.5vw;
+		font-family: "Nanum Gothic";
+	}
+
+	#supported-retailers-list > li {
+		font-size: 2.5vw;
+		letter-spacing: 0.3vw;
+		margin-top: 15px;
+		margin-right: 50px;
+	}
+
+	#install-info > a {
+		padding-right: 6%;
+		padding-left: 6%;
+		padding-top: 1%;
+		padding-bottom: 1%;
+		font-size: 3vw;
 	}
 }
 
@@ -307,24 +336,62 @@ hr {
 		font-size: 30px;
 	}
 
-	#projects-banner {
-		font-size: 18px;
+	#about-button {
+		padding-right: 17%;
+		padding-left: 17%;
+		padding-top: 2.5%;
+		padding-bottom: 2.5%;
+		font-size: 3.5vw;
 	}
 
-	#credit {
-		font-size: 20px;
+	#scroll-arrow-container > img {
+		height: 10%;
+		width: 10%;
+		padding-top: 10px
 	}
 
-	#open-source {
-		font-size: 18px;
+	#logo {
+		display: none;
+	} 
+
+	#logo2 {
+		display: none;
 	}
 
-	.title {
-		font-size: 30px;
+	#price-assist-title {
+		font-size: 7vw;
+	}
+
+	#price-assist-desc {
+		font-size: 3.2vw;
+	}
+
+	#price-assist-flow > p {
+		font-size: 4vw;
 	}	
 
-	.products-desc {
-		font-size: 24px;
+	#price-assist-flow > ul > li {
+		font-size: 3vw;
+	}
+
+	#supported-retailers > p {
+		font-size: 4vw;
+		font-family: "Nanum Gothic";
+	}
+
+	#supported-retailers-list > li {
+		font-size: 3vw;
+		letter-spacing: 0.3vw;
+		margin-top: 15px;
+		margin-right: 50px;
+	}
+
+	#install-info > a {
+		padding-right: 15%;
+		padding-left: 15%;
+		padding-top: 2.2%;
+		padding-bottom: 2.2%;
+		font-size: 3.8vw;
 	}
 }
 
