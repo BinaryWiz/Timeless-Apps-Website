@@ -183,14 +183,14 @@ hr {
 	font-family: "Nanum Gothic";
 	font-size: 1.2vw;
 	border-radius: 100px;
-	border: 5px solid #37fad6;
+	border: 2px solid #37fad6;
 	-webkit-box-shadow: 4px 4px 17px -9px rgb(173, 255, 240);
 	-moz-box-shadow: 4px 4px 17px -9px rgb(173, 255, 240);
 	box-shadow: 4px 4px 17px -9px rgb(173, 255, 240);
 	list-style-type: none;
 	margin-top: 3%;
 	margin-bottom: 3%;
-	padding: 2%;
+	padding: 4%;
 }
 
 #price-assist-flow > ul > li:hover {
@@ -296,13 +296,15 @@ hr {
 }
 
 #leveldb > a {
-	background-color: #17181a;
-	color: white;
+	background-color: white;
+	color: black;
+	border-color: #17181a;
+	margin-bottom: 10px;
 }
 
 #leveldb > a:hover {
-	background-color: white;
-	color: #17181a;
+	background-color: #17181a;
+	color: white;
 	border-color: #17181a;
 }
 
@@ -462,24 +464,24 @@ footer > p {
 	}
 
 	#price-assist-desc {
-		font-size: 3.2vw;
+		font-size: 4.2vw;
 	}
 
 	#price-assist-flow > p {
-		font-size: 4vw;
+		font-size: 5.2vw;
 	}	
 
 	#price-assist-flow > ul > li {
-		font-size: 3vw;
+		font-size: 4.3vw;
 	}
 
 	#supported-retailers > p {
-		font-size: 4vw;
+		font-size: 5.2vw;
 		font-family: "Nanum Gothic";
 	}
 
 	#supported-retailers-list > li {
-		font-size: 3vw;
+		font-size: 4.3vw;
 		letter-spacing: 0.3vw;
 		margin-top: 15px;
 		margin-right: 50px;
@@ -490,15 +492,19 @@ footer > p {
 		padding-left: 15%;
 		padding-top: 2.2%;
 		padding-bottom: 2.2%;
-		font-size: 3.8vw;
+		font-size: 4.4vw;
+	}
+
+	#open-source-btn {
+		font-size: 4vw;
 	}
 
 	.open-source-title {
-		font-size: 4.5vw;
+		font-size: 5.4vw;
 	}
 
 	.open-source-information {
-		font-size: 2.8vw;
+		font-size: 3.9vw;
 	}
 
 	.open-source-sections > a {
