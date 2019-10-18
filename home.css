@@ -413,6 +413,18 @@ footer > p {
 		font-size: 3vw;
 	}
 
+	#open-source-container > p {
+		font-size: 4.2vw;
+		font-family: "Nanum Gothic";
+		text-align: center;
+		margin-bottom: 0;
+	}
+	
+	#open-source-container > p:nth-child(2) {
+		font-size: 2vw;
+		color: #37fad6;
+	}	
+
 	.open-source-title {
 		font-size: 4vw;
 	}
@@ -495,6 +507,19 @@ footer > p {
 		padding-bottom: 2.2%;
 		font-size: 4.4vw;
 	}
+
+	#open-source-container > p {
+		font-size: 6vw;
+		font-family: "Nanum Gothic";
+		text-align: center;
+		margin-bottom: 0;
+	}
+	
+	#open-source-container > p:nth-child(2) {
+		font-size: 3.7vw;
+		color: #37fad6;
+	}
+	
 
 	#open-source-btn {
 		font-size: 4vw;
