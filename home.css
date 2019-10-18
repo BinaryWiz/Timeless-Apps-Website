@@ -258,6 +258,23 @@ hr {
 
 /* Open Source Stuff */
 
+#open-source-container {
+	background-color: #17181a;
+	color: white;
+}
+
+#open-source-container > p {
+	font-size: 3.2vw;
+	font-family: "Nanum Gothic";
+	text-align: center;
+	margin-bottom: 0;
+}
+
+#open-source-container > p:nth-child(2) {
+	font-size: 1.5vw;
+	color: #37fad6;
+}
+
 #open-source {
 	width: 100%;
 	height: 33%;
@@ -273,6 +290,8 @@ hr {
 	align-items: center;
 	padding-left: 5%;
 	padding-right: 5%;
+	background-color: #17181a;
+	color: white;
 }
 
 .open-source-title {
@@ -288,24 +307,6 @@ hr {
 #upm {
 	background-color: #17181a;
 	color: white;
-
-}
-
-#leveldb {
-	color: black;
-}
-
-#leveldb > a {
-	background-color: white;
-	color: black;
-	border-color: #17181a;
-	margin-bottom: 10px;
-}
-
-#leveldb > a:hover {
-	background-color: #17181a;
-	color: white;
-	border-color: #17181a;
 }
 
 /* Footer */
