@@ -142,9 +142,12 @@ hr {
 	align-items: center;
 }
 
-.disabled {
+#disabled {
 	pointer-events: none;
 	cursor: default;
+	background: #9ba2af;
+	border: none;
+	color: white;
 }
 
 /* Section Shared */
@@ -159,7 +162,6 @@ hr {
 
 .section-desc {
 	font-size: 1.5vw;
-	letter-spacing: 0.5vw;
 	font-family: "Nanum Gothic";
 }
 
@@ -179,6 +181,10 @@ hr {
 	text-align: center;
 	padding-right: 10%;
 	padding-left: 10%;
+}
+
+#price-assist-desc {
+	letter-spacing: 0.5vw;
 }
 
 #price-assist-flow > ul > li {
@@ -246,16 +252,19 @@ hr {
 	margin-top: 15px;
 }
 
-#install-info > .rounded-button {
-	background: #9ba2af;
-	color: white;
+.all-width {
+	width: 100%;
+}
+
+.white-button {
+	color: black;
+	border: 2px solid black;
 	margin-bottom: 1%;
 }
 
-#install-info > .rounded-button:hover {
-	background-color: white;
-	color: black;
-	border: 5px solid #17181a;
+.white-button:hover {
+	background-color: black;
+	color: white;
 	text-decoration: none;
 }
 
@@ -318,6 +327,15 @@ hr {
 	text-align: center;
 	padding-right: 10%;
 	padding-left: 10%;
+}
+
+#track-prices-img {
+	width: 99%;
+	height: auto;
+}
+
+#track-prices > p {
+	letter-spacing: 0.2vw;
 }
 
 /* Footer */
@@ -424,7 +442,7 @@ footer > p {
 		margin-right: 50px;
 	}
 
-	#install-info > a {
+	#white-button > a {
 		padding-right: 6%;
 		padding-left: 6%;
 		padding-top: 1%;
@@ -527,7 +545,7 @@ footer > p {
 		margin-right: 50px;
 	}
 
-	#install-info > a {
+	#white-button > a {
 		padding-right: 15%;
 		padding-left: 15%;
 		padding-top: 2.2%;
