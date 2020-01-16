@@ -24,8 +24,10 @@
 #price-assist-flow > ul > li {
 	font-family: "Nanum Gothic";
 	font-size: 1.2vw;
-	border-radius: 100px;
-	border: 2px solid #37fad6;
+	background-color: #09090a;
+	color: white;
+	border-radius: 5px;
+	transition: .3s;
 	-webkit-box-shadow: 4px 4px 17px -9px rgb(173, 255, 240);
 	-moz-box-shadow: 4px 4px 17px -9px rgb(173, 255, 240);
 	box-shadow: 4px 4px 17px -9px rgb(173, 255, 240);
@@ -34,13 +36,6 @@
 	margin-bottom: 3%;
 	padding: 4%;
 }
-
-#price-assist-flow > ul > li:hover {
-	background-color: #63ecd3;
-	border-color: #63ecd3;
-	color: black;
-}
-
 
 #price-assist-flow > p {
 	font-size: 2vw;
