@@ -13,12 +13,16 @@
 
 #price-assist-information {
 	text-align: center;
-	padding-right: 10%;
-	padding-left: 10%;
+	padding-right: 15%;
+	padding-left: 15%;
 }
 
 #price-assist-desc {
 	letter-spacing: 0.5vw;
+}
+
+#price-assist-flow {
+
 }
 
 #price-assist-flow > ul > li {
@@ -66,13 +70,13 @@
     100% { transform: translateX(-10px); }
 }
 
+#supported-retailers-list {
+	list-style-type: none;
+}
+
 #supported-retailers > p {
 	font-size: 2vw;
 	font-family: "Nanum Gothic";
-}
-
-#supported-retailers-list {
-	list-style-type: none;
 }
 
 #supported-retailers-list > li {
@@ -97,9 +101,9 @@
 	text-decoration: none;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1200px) {
   #price-assist-flow > p {
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
 
   #price-assist-flow > ul > li {
@@ -111,11 +115,11 @@
   }
 
   #price-assist-desc {
-    font-size: 2.5vw;
+    font-size: 2.8vw;
   }
 
   #supported-retailers > p {
-    font-size: 2.5vw;
+    font-size: 3vw;
     font-family: "Nanum Gothic";
   }
 

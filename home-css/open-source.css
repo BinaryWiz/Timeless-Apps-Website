@@ -26,7 +26,6 @@
 }
 
 #open-source-container > p {
-	font-size: 3.2vw;
 	font-family: "Nanum Gothic";
 	text-align: center;
 	margin-bottom: 0;
@@ -70,21 +69,14 @@
 	color: white;
 }
 
-@media screen only and (max-width: 1100px) {
-  #open-source-container > p {
-    font-size: 4.2vw;
-    font-family: "Nanum Gothic";
-    text-align: center;
-    margin-bottom: 0;
-  }
-
+@media only screen and (max-width: 1200px) {
   #open-source-container > p:nth-child(2) {
-    font-size: 2vw;
+    font-size: 3vw;
     color: #37fad6;
   }
 
   .open-source-title {
-    font-size: 4vw;
+    font-size: 3.5vw;
   }
 
   .open-source-information {
