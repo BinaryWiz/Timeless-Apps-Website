@@ -1,0 +1,111 @@
+/* Open Source Stuff */
+
+#open-source-container {
+	background-color: #17181a;
+	color: white;
+	padding-bottom: 1%;
+}
+
+#open-source-container > p {
+	font-size: 3.2vw;
+	font-family: "Nanum Gothic";
+	text-align: center;
+	margin-bottom: 0;
+}
+
+#open-source-container > p:nth-child(2) {
+	font-size: 1.5vw;
+	color: #37fad6;
+}
+
+#open-source {
+	width: 100%;
+	height: 33%;
+	margin-right: 0;
+	margin-left: 0;
+	font-family: "Nanum Gothic";
+}
+
+.open-source-sections {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: #17181a;
+	color: white;
+}
+
+.open-source-title {
+	font-size: 2vw;
+	text-align: center;
+}
+
+.open-source-information {
+	font-size: 1.2vw;
+	text-align: center;
+}
+
+#upm {
+	background-color: #17181a;
+	color: white;
+}
+
+@media screen only and (max-width: 1100px) {
+  #open-source-container > p {
+    font-size: 4.2vw;
+    font-family: "Nanum Gothic";
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  #open-source-container > p:nth-child(2) {
+    font-size: 2vw;
+    color: #37fad6;
+  }
+
+  .open-source-title {
+    font-size: 4vw;
+  }
+
+  .open-source-information {
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+	#upm > a {
+		margin-bottom: 1%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+  #open-source-container > p {
+    font-size: 6vw;
+    font-family: "Nanum Gothic";
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  #open-source-container > p:nth-child(2) {
+    font-size: 3.7vw;
+    color: #37fad6;
+  }
+
+
+  #open-source-btn {
+    font-size: 4vw;
+  }
+
+  .open-source-title {
+    font-size: 5.4vw;
+  }
+
+  .open-source-information {
+    font-size: 3.9vw;
+  }
+
+  .open-source-sections > a {
+    font-size: 3vw;
+  }
+}

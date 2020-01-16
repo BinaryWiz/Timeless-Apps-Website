@@ -1,0 +1,16 @@
+/* Track Prices */
+
+#track-prices {
+	text-align: center;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+#track-prices-img {
+	width: 99%;
+	height: auto;
+}
+
+#track-prices > p {
+	letter-spacing: 0.2vw;
+}

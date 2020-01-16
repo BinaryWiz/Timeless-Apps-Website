@@ -1,0 +1,162 @@
+/* Price Assist */
+
+#price-assist {
+
+}
+
+#price-assist-column {
+	margin-top: 5%;
+	display: flex;
+	align-items: flex-start;
+}
+
+#price-assist-information {
+	text-align: center;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+#price-assist-desc {
+	letter-spacing: 0.5vw;
+}
+
+#price-assist-flow > ul > li {
+	font-family: "Nanum Gothic";
+	font-size: 1.2vw;
+	border-radius: 100px;
+	border: 2px solid #37fad6;
+	-webkit-box-shadow: 4px 4px 17px -9px rgb(173, 255, 240);
+	-moz-box-shadow: 4px 4px 17px -9px rgb(173, 255, 240);
+	box-shadow: 4px 4px 17px -9px rgb(173, 255, 240);
+	list-style-type: none;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	padding: 4%;
+}
+
+#price-assist-flow > ul > li:hover {
+	background-color: #63ecd3;
+	border-color: #63ecd3;
+	color: black;
+}
+
+
+#price-assist-flow > p {
+	font-size: 2vw;
+	font-family: "Nanum Gothic";
+}
+
+#price-assist-flow > ul {
+	margin-right: 5.5%;
+	width: 80%
+}
+
+#price-assist-flow > ul > li > .chevron-right {
+	float: left;
+}
+
+.chevron-right {
+	-webkit-animation: horizontal-mover 1s infinite  alternate;
+	animation: horizontal-mover 1s infinite  alternate;
+	float: left;
+}
+
+@-webkit-keyframes horizontal-mover {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-10px); }
+}
+@keyframes horizontal-mover {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-10px); }
+}
+
+#supported-retailers > p {
+	font-size: 2vw;
+	font-family: "Nanum Gothic";
+}
+
+#supported-retailers-list {
+	list-style-type: none;
+}
+
+#supported-retailers-list > li {
+	font-size: 1.5vw;
+	letter-spacing: 0.3vw;
+	margin-top: 15px;
+}
+
+.all-width {
+	width: 100%;
+}
+
+.white-button {
+	color: black;
+	border: 2px solid black;
+	margin-bottom: 1%;
+}
+
+.white-button:hover {
+	background-color: black;
+	color: white;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 1100px) {
+  #price-assist-flow > p {
+    font-size: 2.5vw;
+  }
+
+  #price-assist-flow > ul > li {
+    font-size: 2vw;
+  }
+
+  #price-assist-title {
+    font-size: 6vw;
+  }
+
+  #price-assist-desc {
+    font-size: 2.5vw;
+  }
+
+  #supported-retailers > p {
+    font-size: 2.5vw;
+    font-family: "Nanum Gothic";
+  }
+
+  #supported-retailers-list > li {
+    font-size: 2.5vw;
+    letter-spacing: 0.3vw;
+    margin-top: 15px;
+    margin-right: 50px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  #price-assist-title {
+    font-size: 7vw;
+  }
+
+  #price-assist-desc {
+    font-size: 4.2vw;
+  }
+  #price-assist-flow > p {
+    font-size: 5.2vw;
+  }
+
+  #price-assist-flow > ul > li {
+    font-size: 4.3vw;
+  }
+
+  #supported-retailers > p {
+    font-size: 5.2vw;
+    font-family: "Nanum Gothic";
+  }
+
+  #supported-retailers-list > li {
+    font-size: 4.3vw;
+    letter-spacing: 0.3vw;
+    margin-top: 15px;
+    margin-right: 50px;
+  }
+}

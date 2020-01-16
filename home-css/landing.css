@@ -1,0 +1,147 @@
+#navbar {
+	background: #17181a;
+	width: 100%;
+
+}
+
+#new-scrollbar::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+#new-scrollbar::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+#new-scrollbar::-webkit-scrollbar-thumb
+{
+	background-color: #17181a;
+	border: 2px solid #17181a;
+}
+
+#scroll-arrow-container {
+	padding-top: 5%;
+	-webkit-animation: vertical-mover 1s infinite  alternate;
+    animation: vertical-mover 1s infinite  alternate;
+}
+
+#landing-page {
+	width: 100%;
+	height: 47%;
+	color: white;
+	min-height: 250px;
+	background-color: #17181a;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-items: center;
+	align-items: center;
+}
+
+#landing-page-content-container {
+	text-align: center;
+}
+
+#landing-page-content {
+	text-align: center;
+}
+
+#brand-name {
+	font-size: 5.2vw;
+	letter-spacing: 0.3vw;
+	font-family: 'Nanum Gothic';
+}
+
+#slogan {
+	font-size: 1.5vw;
+	font-family: 'Nanum Gothic';
+	letter-spacing: 0.2vw;
+	color: #37fad6;
+}
+
+#logo_description {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	justify-items: center;
+	align-items: center;
+}
+
+#logo {
+	max-height: 7vw;
+	max-width: 7vw;
+	margin-left: 5%;
+}
+
+#logo2 {
+	max-height: 7vw;
+	max-width: 7vw;
+	margin-right: 5%;
+}
+
+@media only screen and (max-width: 1100px) {
+  #brand-name {
+    font-size: 64px;
+  }
+
+  #slogan {
+    font-size: 40px;
+  }
+
+  #about-button {
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 2.1%;
+    padding-bottom: 2.1%;
+    font-size: 3vw;
+  }
+
+  #scroll-arrow-container > img {
+    height: 7%;
+    width: 7%;
+    padding-top: 10px
+  }
+
+  #logo {
+    display: none;
+  }
+
+  #logo2 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #brand-name {
+    font-size: 48px;
+  }
+
+  #slogan {
+    font-size: 30px;
+  }
+
+  #about-button {
+    padding-right: 17%;
+    padding-left: 17%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font-size: 3.5vw;
+  }
+
+  #scroll-arrow-container > img {
+    height: 10%;
+    width: 10%;
+    padding-top: 10px
+  }
+
+  #logo {
+    display: none;
+  }
+
+  #logo2 {
+    display: none;
+  }
+}
