@@ -21,10 +21,6 @@
 	letter-spacing: 0.5vw;
 }
 
-#price-assist-flow {
-
-}
-
 #price-assist-flow > ul > li {
 	font-family: "Nanum Gothic";
 	font-size: 1.2vw;
@@ -146,6 +142,11 @@
 
   #price-assist-flow > ul > li {
     font-size: 4.3vw;
+  }
+
+  #price-assist-information {
+    padding-left: 20px;
+    padding-right: 20px
   }
 
   #supported-retailers > p {

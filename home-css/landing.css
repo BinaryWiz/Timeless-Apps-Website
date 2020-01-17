@@ -58,7 +58,7 @@
 	-moz-box-shadow: 3px 2px 39px 1px rgba(0,0,0,0.45);
 	box-shadow: 3px 2px 39px 1px rgba(0,0,0,0.45);
 	transform-origin: top, left;
-	transform: skewY(4deg);
+	transform: skewY(2.8deg);
 }
 
 #landing-page-content-container {
