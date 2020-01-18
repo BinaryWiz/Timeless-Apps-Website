@@ -13,8 +13,50 @@
 
 #price-assist-information {
 	text-align: center;
-	padding-right: 15%;
-	padding-left: 15%;
+	padding-right: 13%;
+	padding-left: 13%;
+}
+
+#price-assist-info-container {
+	position: relative;
+}
+
+#price-assist-info-container::before {
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	content: '';
+	background: inherit;
+	top: 5;
+	right: 90;
+	background-image: url("../img/star.svg");
+	background-repeat: no-repeat;
+	background-position: 50% 30%;
+	background-size: 130px;
+	opacity: 0.4;
+	-webkit-animation: scale-up 1s infinite  alternate;
+	animation: scale-up 1s infinite  alternate;
+}
+#price-assist-info-container::after {
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	content: '';
+	background: inherit;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin-top: 8%;
+	background-image: url("../img/bank.svg");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 20%;
+	opacity: 0.4;
+	-webkit-animation: horizontal-mover 1s infinite  alternate;
+	animation: horizontal-mover 1s infinite  alternate;
 }
 
 #price-assist-desc {
@@ -51,6 +93,45 @@
 	float: left;
 }
 
+#advantages {
+	height: 57vh;
+	min-height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#advantages::after {
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	content: '';
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: url("../img/money.svg");
+	background-repeat: no-repeat;
+	background-position: right;
+	-webkit-animation: scale-up 1s infinite  alternate;
+	animation: scale-up 1s infinite  alternate;
+	opacity: 0.4;
+}
+
+.advantages-p {
+	font-family: "Nanum Gothic";
+	font-size: 3vw;
+	text-align: left;
+}
+
+.advantages-img {
+	height: 5vw;
+	width: 5vw;
+	-webkit-animation: vertical-mover 1s infinite  alternate;
+	animation: vertical-mover 1s infinite  alternate;
+}
+
 .chevron-right {
 	-webkit-animation: horizontal-mover 1s infinite  alternate;
 	animation: horizontal-mover 1s infinite  alternate;
@@ -64,21 +145,6 @@
 @keyframes horizontal-mover {
     0% { transform: translateX(0); }
     100% { transform: translateX(-10px); }
-}
-
-#supported-retailers-list {
-	list-style-type: none;
-}
-
-#supported-retailers > p {
-	font-size: 2vw;
-	font-family: "Nanum Gothic";
-}
-
-#supported-retailers-list > li {
-	font-size: 1.5vw;
-	letter-spacing: 0.3vw;
-	margin-top: 15px;
 }
 
 .all-width {
@@ -114,24 +180,57 @@
     font-size: 2.8vw;
   }
 
-  #supported-retailers > p {
-    font-size: 3vw;
-    font-family: "Nanum Gothic";
-  }
+  #advantages {
+		height: 90vh;
+		max-height: 500px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
 
-  #supported-retailers-list > li {
-    font-size: 2.5vw;
-    letter-spacing: 0.3vw;
-    margin-top: 15px;
-    margin-right: 50px;
-  }
+	.advantages-p {
+		font-family: "Nanum Gothic";
+		font-size: 4vw;
+		text-align: left;
+	}
+
+	.advantages-img {
+		height: 7vw;
+		width: 7vw;
+		-webkit-animation: vertical-mover 1s infinite  alternate;
+		animation: vertical-mover 1s infinite  alternate;
+	}
+
 }
 
+@media only screen and (max-width: 992px) {
+	#advantages::after {
+		background-position: center;
+	}
+
+	.advantages-p {
+		font-family: "Nanum Gothic";
+		font-size: 4.2vw;
+		text-align: left;
+	}
+
+	.advantages-img {
+		height: 10vw;
+		width: 10vw;
+		-webkit-animation: vertical-mover 1s infinite  alternate;
+		animation: vertical-mover 1s infinite  alternate;
+	}
+}
 
 @media only screen and (max-width: 768px) {
   #price-assist-title {
     font-size: 7vw;
   }
+
+	#price-assist-info-container::after {
+		background-size: 200px;
+		margin-top: 15%;
+	}
 
   #price-assist-desc {
     font-size: 4.2vw;
@@ -149,15 +248,25 @@
     padding-right: 20px
   }
 
-  #supported-retailers > p {
-    font-size: 5.2vw;
-    font-family: "Nanum Gothic";
+  #advantages {
+	height: 400px;
+	min-height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
   }
 
-  #supported-retailers-list > li {
-    font-size: 4.3vw;
-    letter-spacing: 0.3vw;
-    margin-top: 15px;
-    margin-right: 50px;
+  .advantages-p {
+	font-family: "Nanum Gothic";
+	font-size: 10vw;
+	text-align: left;
   }
+
+  .advantages-img {
+	height: 13vw;
+	width: 13vw;
+	-webkit-animation: vertical-mover 1s infinite  alternate;
+	animation: vertical-mover 1s infinite  alternate;
+  }
+
 }

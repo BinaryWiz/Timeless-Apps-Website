@@ -5,6 +5,7 @@ html, body {
 	padding: 0;
 	font-family: Lato, serif;
 	overflow-x: hidden;
+
 }
 
 hr {
@@ -15,9 +16,15 @@ hr {
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
 }
+
 @keyframes vertical-mover {
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
+}
+
+@-webkit-keyframes scale-up {
+    0% { transform: scale(1); }
+    100% { 	transform: scale(1.03); }
 }
 
 .rounded-button {
@@ -89,6 +96,10 @@ hr {
 	float: left;
 }
 
+.inline-img {
+	vertical-align: middle;
+}
+
 @-webkit-keyframes horizontal-mover {
     0% { transform: translateX(0); }
     100% { transform: translateX(-10px); }
@@ -96,6 +107,15 @@ hr {
 @keyframes horizontal-mover {
     0% { transform: translateX(0); }
     100% { transform: translateX(-10px); }
+}
+
+@-webkit-keyframes vertical-mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes vertical-mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
 }
 
 
