@@ -54,13 +54,14 @@
 	background-repeat: no-repeat;
 	background-position: left;
 	background-size: 20%;
-	opacity: 0.4;
+	opacity: 0.26;
 	-webkit-animation: horizontal-mover 1s infinite  alternate;
 	animation: horizontal-mover 1s infinite  alternate;
 }
 
 #price-assist-desc {
 	letter-spacing: 0.5vw;
+	color: black;
 }
 
 #price-assist-flow > ul > li {
