@@ -55,7 +55,7 @@
 	background-repeat: no-repeat;
 	background-position: left;
 	background-size: 20%;
-	opacity: 0.26;
+	opacity: 0.56;
 	-webkit-animation: horizontal-mover 1s infinite  alternate;
 	animation: horizontal-mover 1s infinite  alternate;
 }
@@ -118,7 +118,7 @@
 	background-position: right;
 	-webkit-animation: scale-big-up 1s infinite  alternate;
 	animation: scale-big-up 1s infinite  alternate;
-	opacity: 0.4;
+	opacity: 0.6;
 }
 
 .advantages-p {
