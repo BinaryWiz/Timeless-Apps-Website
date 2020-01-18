@@ -1,0 +1,40 @@
+#notices {
+    position: relative;
+    margin: auto;
+    margin-top: 4vh;
+    height: 40vh;
+    width: 100vw;
+}
+
+#describe-search {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#describe-search > h1 {
+    color: #17181a;
+}
+
+.check {
+    height: 64px;
+    width: 64px;
+    margin-right: 15px;
+    animation: scale-small-up 1s infinite alternate;
+}
+
+#sad-face {
+    height: 100px;
+    width: 100px;
+    margin-left: 15px;
+    animation: scale-small-up 1s infinite alternate;
+}
+
+#not-found {
+    display: none;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
