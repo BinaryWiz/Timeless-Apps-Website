@@ -22,10 +22,16 @@ hr {
     100% { transform: translateY(-10px); }
 }
 
-@-webkit-keyframes scale-up {
+@-webkit-keyframes scale-small-up {
     0% { transform: scale(1); }
     100% { 	transform: scale(1.03); }
 }
+
+@-webkit-keyframes scale-big-up {
+    0% { transform: scale(1); }
+    100% { 	transform: scale(1.005); }
+}
+
 
 .rounded-button {
 	font-family: 'Nanum Gothic';

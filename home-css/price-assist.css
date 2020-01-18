@@ -35,8 +35,8 @@
 	background-position: 50% 30%;
 	background-size: 130px;
 	opacity: 0.4;
-	-webkit-animation: scale-up 1s infinite  alternate;
-	animation: scale-up 1s infinite  alternate;
+	-webkit-animation: scale-small-up 1s infinite  alternate;
+	animation: scale-small-up 1s infinite  alternate;
 }
 
 #price-assist-info-container::after {
@@ -116,8 +116,8 @@
 	background-image: url("../img/money.svg");
 	background-repeat: no-repeat;
 	background-position: right;
-	-webkit-animation: scale-up 1s infinite  alternate;
-	animation: scale-up 1s infinite  alternate;
+	-webkit-animation: scale-big-up 1s infinite  alternate;
+	animation: scale-big-up 1s infinite  alternate;
 	opacity: 0.4;
 }
 
@@ -130,8 +130,6 @@
 .advantages-img {
 	height: 5vw;
 	width: 5vw;
-	-webkit-animation: vertical-mover 1s infinite  alternate;
-	animation: vertical-mover 1s infinite  alternate;
 }
 
 .chevron-right {
@@ -203,8 +201,6 @@
 	.advantages-img {
 		height: 7vw;
 		width: 7vw;
-		-webkit-animation: vertical-mover 1s infinite  alternate;
-		animation: vertical-mover 1s infinite  alternate;
 	}
 
 }
@@ -223,8 +219,6 @@
 	.advantages-img {
 		height: 10vw;
 		width: 10vw;
-		-webkit-animation: vertical-mover 1s infinite  alternate;
-		animation: vertical-mover 1s infinite  alternate;
 	}
 }
 
@@ -271,8 +265,6 @@
   .advantages-img {
 	height: 13vw;
 	width: 13vw;
-	-webkit-animation: vertical-mover 1s infinite  alternate;
-	animation: vertical-mover 1s infinite  alternate;
   }
 
 }
