@@ -38,6 +38,7 @@
 	-webkit-animation: scale-up 1s infinite  alternate;
 	animation: scale-up 1s infinite  alternate;
 }
+
 #price-assist-info-container::after {
 	position: absolute;
 	z-index: -1;
@@ -187,6 +188,10 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
+	}
+
+	#advantages::after {
+		background-position: center;
 	}
 
 	.advantages-p {
