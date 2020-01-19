@@ -4,20 +4,26 @@ function generateChart(userInput, title) {
 
     const http = new XMLHttpRequest();
 
-    let url = 'http://localhost:5003?item_model=' + userInput
+    let url = 'http://www.timeless-apps.com:5003?item_model=' + userInput
 
     if(USING_FAKE_DATE) {
-        url = 'http://localhost:5003/fake_data'
+        url = 'http://www.timeless-apps.com:5003/fake_data'
     }
-
-    document.getElementById("chart-container").style.display = "flex";
 
     http.open("GET", url)
     http.responseType = "json"
     http.send()
-
-    http.onreadystatechange=(e)=> {
+    http.onload=(e)=> {
         data = http.response
+        console.log(http.status)
+        if (http.status == 500) {
+            document.getElementById("notices").style.display = "flex"
+            document.getElementById("not-found").style.display = "flex"
+            return;
+        }
+
+        document.getElementById("chart-container").style.display = "flex";
+
         var dates = []
         var prices = []
         data.forEach(day => {
@@ -78,7 +84,7 @@ function getMatches() {
 
     const http = new XMLHttpRequest();
 
-    let url = 'http://localhost:5003/search_item_models?search=' + title
+    let url = 'http://www.timeless-apps.com:5003/search_item_models?search=' + title
 
     document.getElementById("title-list").innerHTML = "";
 
@@ -87,7 +93,7 @@ function getMatches() {
     http.responseType = "json"
     http.send()
 
-    http.onreadystatechange=(e)=> {
+    http.onload=(e)=> {
         data = http.response
         show_titles = []
         item_models = []
