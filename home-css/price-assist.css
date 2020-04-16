@@ -41,8 +41,16 @@
 }
 
 #price-assist-desc {
+	padding-left: 5px;
+	border-left: 10px solid #38e093;
 	letter-spacing: 0.12vw;
 	color: black;
+}
+
+#price-assist-flow {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
 }
 
 #price-assist-flow > ul > li {
@@ -75,29 +83,16 @@
 }
 
 #advantages {
-	height: 57vh;
-	min-height: 200px;
 	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+	height: 67vh;
+	min-height: 200px;
+	align-items: flex-end;
+	justify-content: center;
 }
 
-#advantages::after {
-	position: absolute;
-	z-index: -1;
-	width: 100%;
-	height: 100%;
-	content: '';
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background-image: url("../img/money.svg");
-	background-repeat: no-repeat;
-	background-position: right;
-	-webkit-animation: scale-big-up 1s infinite  alternate;
-	animation: scale-big-up 1s infinite  alternate;
-	opacity: 0.8;
+#price-assist-img {
+		height: 100%;
+		-webkit-animation: scale-small-up 1s infinite alternate;
 }
 
 .advantages-p {
@@ -142,6 +137,22 @@
 }
 
 @media only screen and (max-width: 1200px) {
+	#price-assist-flow {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#price-assist-desc {
+		border-right: 10px solid #38e093;
+	}
+
+	#advantages {
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 3%;
+	}
+
   #price-assist-flow > p {
     font-size: 3vw;
   }
