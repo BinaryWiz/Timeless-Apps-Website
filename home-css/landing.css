@@ -34,6 +34,7 @@
 }
 
 #landing-page {
+	font-family: "Muli";
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -48,7 +49,6 @@
 
 #landing-page:after {
 	position: absolute;
-
 	z-index: -1;
 	width: 100%;
 	height: 100%;
@@ -76,14 +76,12 @@
 }
 
 #brand-name {
-	font-size: 5.2vw;
+	font-size: 5.3vw;
 	letter-spacing: 0.3vw;
-	font-family: 'Nanum Gothic';
 }
 
 #slogan {
-	font-size: 1.5vw;
-	font-family: 'Nanum Gothic';
+	font-size: 1.9vw;
 	letter-spacing: 0.2vw;
 	margin-bottom: 5%;
 	color: #37fad6;

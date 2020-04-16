@@ -1,9 +1,11 @@
 /* Price Assist */
 
 #price-assist {
-	margin-top: 4%;
-	margin-bottom: 4%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+
 }
+
 
 #price-assist-column {
 	margin-top: 5%;
@@ -34,7 +36,6 @@
 	background-repeat: no-repeat;
 	background-position: 50% 30%;
 	background-size: 130px;
-	opacity: 0.4;
 	-webkit-animation: scale-small-up 1s infinite  alternate;
 	animation: scale-small-up 1s infinite  alternate;
 }
@@ -97,7 +98,7 @@
 	background-position: right;
 	-webkit-animation: scale-big-up 1s infinite  alternate;
 	animation: scale-big-up 1s infinite  alternate;
-	opacity: 0.6;
+	opacity: 0.8;
 }
 
 .advantages-p {
