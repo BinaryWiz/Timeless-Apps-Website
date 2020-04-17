@@ -84,7 +84,7 @@
 
 #advantages {
 	display: flex;
-	height: 67vh;
+	height: 70vh;
 	min-height: 200px;
 	align-items: flex-end;
 	justify-content: center;
@@ -199,6 +199,10 @@
 		margin-top: 2%;
 	}
 
+	#advantages {
+		height: 100vw;
+	}
+
 	#advantages::after {
 		background-position: center;
 	}
@@ -225,14 +229,17 @@
   }
 
   #price-assist-desc {
-    font-size: 4.2vw;
+    font-size: 3.6vw;
   }
+
   #price-assist-flow > p {
     font-size: 5.2vw;
+		justify-content: center;
+		align-items: center;
   }
 
   #price-assist-flow > ul > li {
-    font-size: 4.3vw;
+    font-size: 3.3vw;
   }
 
   #price-assist-information {
@@ -241,11 +248,12 @@
   }
 
   #advantages {
-	height: 400px;
+	height: 500px;
 	min-height: 200px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	align-items: center;
+	justify-content: center;
   }
 
   .advantages-p {
@@ -258,5 +266,10 @@
 	height: 13vw;
 	width: 13vw;
   }
+}
 
+@media  only screen and (max-width: 584px) {
+	#price-assist-flow > ul > li{
+		font-size: 3.9vw;
+	}
 }

@@ -95,7 +95,7 @@
 
   #open-source-container > p {
     font-size: 6vw;
-    font-family: "Nanum Gothic";
+    font-family: "Muli";
     text-align: center;
     margin-bottom: 0;
   }
@@ -105,9 +105,12 @@
     color: #37fad6;
   }
 
-
   #open-source-btn {
     font-size: 4vw;
+		padding-right: 5%;
+		padding-left: 5%;
+		padding-top: 1.2%;
+		padding-bottom: 1.2%;
   }
 
   .open-source-title {
@@ -115,10 +118,16 @@
   }
 
   .open-source-information {
-    font-size: 3.9vw;
+    font-size: 2.6vw;
   }
 
   .open-source-sections > a {
     font-size: 3vw;
   }
+}
+
+@media only screen and (max-width: 584px) {
+	.open-source-information {
+		font-size: 3.5vw;
+	}
 }

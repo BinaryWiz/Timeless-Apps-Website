@@ -1,12 +1,7 @@
-#nav-landing-container {
-	width: 100%;
-	height: 57%;
-	background-color: #9921e8;
-	background-image: linear-gradient(315deg, #811fc2 0%, #5f72be 74%);
-}
-
 #navbar {
 	width: 100%;
+	background: #17181a;
+	font-family: "Muli";
 }
 
 #new-scrollbar::-webkit-scrollbar-track
@@ -34,13 +29,14 @@
 }
 
 #landing-page {
-	font-family: "Muli";
 	position: relative;
 	width: 100%;
-	height: 100%;
+	height: 47%;
 	color: white;
 	min-height: 250px;
 	display: flex;
+	background-color: #9921e8;
+	background-image: linear-gradient(315deg, #811fc2 0%, #5f72be 74%);
 	flex-direction: column;
 	justify-content: center;
 	justify-items: center;
@@ -49,6 +45,7 @@
 
 #landing-page:after {
 	position: absolute;
+	margin-top: 4%;
 	z-index: -1;
 	width: 100%;
 	height: 100%;
@@ -63,8 +60,6 @@
 	box-shadow: 3px 2px 39px 1px rgba(0,0,0,0.45);
 	transform-origin: top, left;
 	transform: skewY(2.8deg);
-	background-color: #9921e8;
-	background-image: linear-gradient(315deg, #811fc2 0%, #5f72be 80%);
 }
 
 #landing-page-content-container {
